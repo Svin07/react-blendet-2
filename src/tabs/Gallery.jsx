@@ -1,4 +1,5 @@
-import { Component, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+//import { Component, useEffect, useState } from 'react';
 
 import * as ImageService from 'service/image-service';
 import { Button, SearchForm, Grid, GridItem, Text, CardItem } from 'components';
