@@ -24,7 +24,7 @@ export const Modal = ({ src, alt, closeModal }) => {
 
   return (
     <Overlay onClick={handleClick}>
-      <img src={src} alt={alt} width="70%" />
+      <img src={src} alt={alt} width="50%" />
     </Overlay>
   );
 };
